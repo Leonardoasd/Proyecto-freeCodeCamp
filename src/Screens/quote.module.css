@@ -12,6 +12,7 @@
     height: 45%;
     font-size: 1.2em;
     margin: 5% 10% 0 10%;
+    transition: 0.5s ease;
 }
 .quote-box p {
     display: flex;
@@ -19,6 +20,7 @@
     justify-content: flex-end;
     margin-right: 5vh;
     height: 5vh;
+    transition: 0.5s ease;
 }
 .button {
     margin: 0 40px 0 100px;
@@ -28,6 +30,14 @@
     position: relative;
     bottom: 3vh;
     right: -5vw;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    color: white;
+    border: 0;
+}
+.button:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 .tweet {
     margin: 0 30% 0 40px;
@@ -39,5 +49,5 @@
 .icontweet {
     height: 6vh;
     width: 4vw;
-    color: rgb(0, 213, 255);
+    transition: 0.5s ease;
 }

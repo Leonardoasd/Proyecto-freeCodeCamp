@@ -1,4 +1,13 @@
 .App {
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+.container {
     height: 50vh;
     width: 50vw;
     display: grid;
@@ -10,4 +19,5 @@
     display: flex;
     justify-content: center;
     font-size: 0.8em;
+    color: white;
 }
