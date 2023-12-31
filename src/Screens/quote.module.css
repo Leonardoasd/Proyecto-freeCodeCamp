@@ -1,0 +1,43 @@
+.quote-box{
+    background-color: white;
+    height: 42vh;
+    width: 50vw;
+    border-radius: 5px;
+}
+.quote-box h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 45%;
+    font-size: 1.2em;
+    margin: 5% 10% 0 10%;
+}
+.quote-box p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5vh;
+    height: 5vh;
+}
+.button {
+    margin: 0 40px 0 100px;
+    width: 10vw;
+    height: 5vh;
+    display: inline-block;
+    position: relative;
+    bottom: 3vh;
+    right: -5vw;
+}
+.tweet {
+    margin: 0 30% 0 40px;
+    display: inline-block;
+    height: 6vh;
+    width: 4vw;
+    
+}
+.icontweet {
+    height: 6vh;
+    width: 4vw;
+    color: rgb(0, 213, 255);
+}
