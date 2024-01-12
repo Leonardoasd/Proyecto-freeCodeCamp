@@ -23,31 +23,62 @@
     transition: 0.5s ease;
 }
 .button {
-    margin: 0 40px 0 100px;
     width: 10vw;
     height: 5vh;
-    display: inline-block;
-    position: relative;
-    bottom: 3vh;
-    right: -5vw;
     border-radius: 5px;
     transition: 0.5s ease;
     color: white;
     border: 0;
+    margin-right: 90px;
 }
 .button:hover {
     cursor: pointer;
     opacity: 0.8;
 }
+.tweetandbutton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .tweet {
-    margin: 0 30% 0 40px;
-    display: inline-block;
     height: 6vh;
     width: 4vw;
-    
+    margin-left: 35px;
 }
 .icontweet {
     height: 6vh;
     width: 4vw;
     transition: 0.5s ease;
+}
+@media (max-width: 900px){
+    .quote-box{
+        width: 100%;
+    }
+    .button{
+        width: 90px;
+        margin-right: 35px;
+    }
+    .tweet {
+        width: 50px;
+    }
+    .icontweet {
+        width: 50px;
+    }
+    
+}
+@media (min-height: 1023px){
+    .quote-box{
+        width: 100%;
+    }
+    .button{
+        width: 300px;
+        margin-right: 100px;
+        font-size: 1.8vh;
+    }
+    .tweet {
+        width: 300px;
+    }
+    .icontweet {
+        width: 300px;
+    }
 }
